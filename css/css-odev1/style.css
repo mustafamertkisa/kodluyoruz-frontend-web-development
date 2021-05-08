@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    list-style-position: inside;
+    background-color: #f8f5f1;
+    font-family: 'Itim', cursive;;
+}
+h1{
+    color: #5aa897;
+}
+ul{
+    color: #f8a488;
+}
+h2{
+    color: #9f5f80;
+}
+h3{
+    color: #f8a488;
+}
+.baslicaeserleri{
+    color: #393e46;
+}
+img{
+    width: 150px;
+    height: 200px;
+}
