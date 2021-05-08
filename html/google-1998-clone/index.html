@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        #searchbar {
+            width: 300px;
+        }
+
+        #body1 {
+            background-color: gainsboro;
+            width: 90%;
+            margin-left: 5%;
+        }
+
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+            background-color: darkturquoise;
+            margin-left: 5%;
+            margin-top: 2px;
+            width: 90%;
+        }
+
+        .center td {
+            padding-left: 120px;
+            padding-right: 120px;
+        }
+
+        .center tr,
+        td {
+            border: 3px solid white;
+        }
+    </style>
+    <title>Google!</title>
+</head>
+
+<body>
+    <!-- Header Start -->
+    <header>
+        <img src="google.jpg" alt="Google logo">
+    </header>
+    <!-- Header End -->
+
+    <!-- Content Start -->
+    <section>
+        <!-- Articles Start -->
+        <article id="body1">
+            <table>
+                <tr>
+                    <p>Search the web using Google!</p>
+                    <input type="text" id="searchbar">
+                    <br>
+                    <button type="button">Google Search</button>
+                    <button type="button">I'm feeling lucky</button>
+                </tr>
+            </table>
+        </article>
+
+        <article id="body2">
+            <table class="center">
+                <tr>
+                    <td>
+                        <ul>Special Searches</ul>
+                        <ul><a href="#">Stanford Search</a></ul>
+                        <ul><a href="#">Linux Search</a></ul>
+                    </td>
+                    <td>
+                        <ul><a href="#">Help!</a></ul>
+                        <ul><a href="#">About Google!</a></ul>
+                        <ul><a href="#">Company Info</a></ul>
+                        <ul><a href="#">Google Logos</a></ul>
+                    </td>
+                    <td>
+                        <ul>Get Google!</ul>
+                        <ul>updates monthly.</ul>
+                        <ul><input type="email" name="email" id="emailid" placeholder="your e-mail"></ul>
+                        <ul><button type="button">Subscribe</button><a href="#">Archive</a></ul>
+                    </td>
+                </tr>
+            </table>
+        </article>
+        <!-- Articles End -->
+        <!-- Content End -->
+
+        <!-- Footer Start -->
+        <footer>
+            <p>Copyright ©1998 Google Inc.</p>
+        </footer>
+        <!-- Footer End -->
+</body>
+
+</html>
