@@ -1,0 +1,29 @@
+body{
+    background-color: purple;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: x-large;
+    color:wheat;
+}
+header{
+    margin-top: 100px;
+}
+section{
+    margin-top: 20px;
+}
+ul{
+    list-style: none
+    display: block;
+}
+ul li{
+    display: inline;
+
+    position: relative;
+}
+.icons i{
+    margin: 10px;
+    color: aliceblue;
+}
+a:hover{
+    background-color: rgb(247, 89, 40);
+}
